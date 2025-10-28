@@ -10,3 +10,30 @@ export const ADD_COUNTRY = gql`
   }
 }
 `;
+
+// pour récupéré la liste des pays
+export const Countries = gql`
+  query Countries {
+  countries {
+    id
+    code
+    name
+    emoji
+  }
+}
+`;
+
+// pour récupéré le détail d'un pays
+export const Country = gql`
+  query Country($code: String!) {
+  country(code: $code) {
+    id
+    code
+    name
+    emoji
+    continent {
+      name
+    }
+  }
+}
+`;

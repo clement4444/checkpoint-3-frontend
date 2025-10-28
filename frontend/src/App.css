@@ -16,6 +16,16 @@ body {
   background-color: #f5f5f5;
 }
 
+a {
+  text-decoration: none;
+}
+
+.eurreurMessage {
+  color: red;
+  font-size: 2rem;
+}
+
+
 :root {
   --color-pink: #d8376c;
   --color-white: #ffffff;

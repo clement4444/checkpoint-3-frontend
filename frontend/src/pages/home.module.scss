@@ -2,6 +2,20 @@
     text-align: center;
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 5em;
+
+    @media screen and (max-width: 900px) {
+        padding-bottom: 2em;
+    }
+}
+
+.messageEurreur {
+    width: 100%;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2em;
 }
 
 .fromAddPays {
@@ -11,6 +25,13 @@
     justify-content: space-between;
     padding: 1em;
     border-radius: 10px;
+    margin-bottom: 60px;
+    background-color: var(--color-gray-light);
+
+    @media screen and (max-width: 900px) {
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 .bntAjouter {
@@ -26,4 +47,18 @@
         cursor: pointer;
         background-color: #a0c4ff;
     }
+
+    @media screen and (max-width: 900px) {
+        aspect-ratio: 0;
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+.contenaireAllPays {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
 }
