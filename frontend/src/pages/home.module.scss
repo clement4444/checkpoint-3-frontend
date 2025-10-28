@@ -1,0 +1,29 @@
+.homePage {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.fromAddPays {
+    margin-top: 40px;
+    border: 1px var(--color-gray) solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.bntAjouter {
+    border: none;
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    font-size: 18px;
+    aspect-ratio: 1/1;
+    padding: 10px;
+    border-radius: 10px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #a0c4ff;
+    }
+}

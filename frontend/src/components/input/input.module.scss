@@ -1,0 +1,18 @@
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+
+    label {
+        font-size: 1.1em;
+    }
+
+    input {
+        padding: 5px;
+        font-size: 1.5em;
+        border: 1px solid var(--color-black);
+        border-radius: 4px;
+        width: 200px;
+    }
+}
